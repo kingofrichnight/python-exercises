@@ -1,0 +1,482 @@
+[
+  {
+    "section": "01_basics",
+    "path": "exercises/01_basics/01_greeting.py",
+    "title": "Personalized greeting",
+    "concepts": "variables, str, f-strings, return"
+  },
+  {
+    "section": "01_basics",
+    "path": "exercises/01_basics/02_temperature.py",
+    "title": "Temperature converter",
+    "concepts": "arithmetic, floats, operator precedence"
+  },
+  {
+    "section": "01_basics",
+    "path": "exercises/01_basics/03_time_breakdown.py",
+    "title": "Break seconds into clock units",
+    "concepts": "integers, divmod, tuple unpacking"
+  },
+  {
+    "section": "01_basics",
+    "path": "exercises/01_basics/04_parse_input.py",
+    "title": "Parse a shopping quantity",
+    "concepts": "input conversion, int, exceptions, print"
+  },
+  {
+    "section": "01_basics",
+    "path": "exercises/01_basics/05_identity.py",
+    "title": "Copies, equality, and identity",
+    "concepts": "is, ==, mutable objects, shallow and deep copy"
+  },
+  {
+    "section": "02_control_flow",
+    "path": "exercises/02_control_flow/01_leap_year.py",
+    "title": "Leap year classifier",
+    "concepts": "if, booleans, modulo, and/or"
+  },
+  {
+    "section": "02_control_flow",
+    "path": "exercises/02_control_flow/02_fizzbuzz.py",
+    "title": "FizzBuzz sequence",
+    "concepts": "for, range, if/elif/else, lists"
+  },
+  {
+    "section": "02_control_flow",
+    "path": "exercises/02_control_flow/03_gcd.py",
+    "title": "Euclidean greatest common divisor",
+    "concepts": "while, simultaneous assignment, abs"
+  },
+  {
+    "section": "02_control_flow",
+    "path": "exercises/02_control_flow/04_prime.py",
+    "title": "Prime number checker",
+    "concepts": "for/else, break, square-root bound"
+  },
+  {
+    "section": "02_control_flow",
+    "path": "exercises/02_control_flow/05_commands.py",
+    "title": "Dispatch structured commands",
+    "concepts": "match/case, guards, destructuring"
+  },
+  {
+    "section": "03_strings",
+    "path": "exercises/03_strings/01_palindrome.py",
+    "title": "Normalized palindrome",
+    "concepts": "casefold, isalnum, slicing, comprehension"
+  },
+  {
+    "section": "03_strings",
+    "path": "exercises/03_strings/02_word_counts.py",
+    "title": "Word frequency table",
+    "concepts": "split, strip, dict.get, punctuation"
+  },
+  {
+    "section": "03_strings",
+    "path": "exercises/03_strings/03_run_length.py",
+    "title": "Run-length encoding",
+    "concepts": "iteration, state, tuples, join"
+  },
+  {
+    "section": "03_strings",
+    "path": "exercises/03_strings/04_anagrams.py",
+    "title": "Group anagrams",
+    "concepts": "sorted, defaultdict, canonical keys"
+  },
+  {
+    "section": "03_strings",
+    "path": "exercises/03_strings/05_unicode.py",
+    "title": "Unicode and byte boundaries",
+    "concepts": "unicodedata, encode, decode, NFC"
+  },
+  {
+    "section": "04_collections",
+    "path": "exercises/04_collections/01_deduplicate.py",
+    "title": "Deduplicate while preserving order",
+    "concepts": "sets, lists, membership, hashability"
+  },
+  {
+    "section": "04_collections",
+    "path": "exercises/04_collections/02_matrix.py",
+    "title": "Transpose a rectangular matrix",
+    "concepts": "nested lists, zip, unpacking, any"
+  },
+  {
+    "section": "04_collections",
+    "path": "exercises/04_collections/03_inventory.py",
+    "title": "Inventory reconciliation",
+    "concepts": "dict union, sets, comprehensions, sorting"
+  },
+  {
+    "section": "04_collections",
+    "path": "exercises/04_collections/04_ranking.py",
+    "title": "Stable leaderboard ranking",
+    "concepts": "sorted, lambda, enumerate, tuple keys"
+  },
+  {
+    "section": "04_collections",
+    "path": "exercises/04_collections/05_bounded_history.py",
+    "title": "Bounded event history",
+    "concepts": "deque, maxlen, collections"
+  },
+  {
+    "section": "05_functions",
+    "path": "exercises/05_functions/01_arguments.py",
+    "title": "Build a configurable receipt",
+    "concepts": "defaults, keyword-only parameters, round"
+  },
+  {
+    "section": "05_functions",
+    "path": "exercises/05_functions/02_variadic.py",
+    "title": "Merge named settings",
+    "concepts": "*args, **kwargs, unpacking, dict.update"
+  },
+  {
+    "section": "05_functions",
+    "path": "exercises/05_functions/03_safe_defaults.py",
+    "title": "Avoid shared mutable defaults",
+    "concepts": "None sentinel, mutation, default arguments"
+  },
+  {
+    "section": "05_functions",
+    "path": "exercises/05_functions/04_closure.py",
+    "title": "Independent running counters",
+    "concepts": "closures, nonlocal, lexical scope"
+  },
+  {
+    "section": "05_functions",
+    "path": "exercises/05_functions/05_recursion.py",
+    "title": "Flatten nested lists",
+    "concepts": "recursion, isinstance, base case"
+  },
+  {
+    "section": "06_modules_errors",
+    "path": "exercises/06_modules_errors/01_modules.py",
+    "title": "Import and inspect a module",
+    "concepts": "importlib, modules, namespaces, main guard"
+  },
+  {
+    "section": "06_modules_errors",
+    "path": "exercises/06_modules_errors/02_custom_error.py",
+    "title": "Validate a configuration value",
+    "concepts": "custom exceptions, chaining, try/except"
+  },
+  {
+    "section": "06_modules_errors",
+    "path": "exercises/06_modules_errors/03_cleanup.py",
+    "title": "Cleanup even after failure",
+    "concepts": "try/except/else/finally, resources"
+  },
+  {
+    "section": "06_modules_errors",
+    "path": "exercises/06_modules_errors/04_cli.py",
+    "title": "Command-line unit converter",
+    "concepts": "argparse, CLI, choices, optional arguments"
+  },
+  {
+    "section": "07_files_data",
+    "path": "exercises/07_files_data/01_text_files.py",
+    "title": "Summarize a UTF-8 text file",
+    "concepts": "pathlib, with, encoding, streaming"
+  },
+  {
+    "section": "07_files_data",
+    "path": "exercises/07_files_data/02_json.py",
+    "title": "Validate JSON settings",
+    "concepts": "json, serialization, schema validation"
+  },
+  {
+    "section": "07_files_data",
+    "path": "exercises/07_files_data/03_csv.py",
+    "title": "Aggregate CSV sales",
+    "concepts": "csv.DictReader, StringIO, Decimal"
+  },
+  {
+    "section": "07_files_data",
+    "path": "exercises/07_files_data/04_atomic_write.py",
+    "title": "Replace a file after a successful write",
+    "concepts": "tempfile, os.replace, finally, pathlib"
+  },
+  {
+    "section": "07_files_data",
+    "path": "exercises/07_files_data/05_sqlite.py",
+    "title": "Parameterized SQLite queries",
+    "concepts": "sqlite3, SQL, transactions, contextlib.closing"
+  },
+  {
+    "section": "08_oop",
+    "path": "exercises/08_oop/01_bank_account.py",
+    "title": "Encapsulated account balance",
+    "concepts": "classes, __init__, properties, methods"
+  },
+  {
+    "section": "08_oop",
+    "path": "exercises/08_oop/02_dataclasses.py",
+    "title": "Immutable inventory records",
+    "concepts": "dataclass, frozen, slots, __post_init__"
+  },
+  {
+    "section": "08_oop",
+    "path": "exercises/08_oop/03_polymorphism.py",
+    "title": "Shape interface",
+    "concepts": "ABC, abstractmethod, inheritance, polymorphism"
+  },
+  {
+    "section": "08_oop",
+    "path": "exercises/08_oop/04_dunder.py",
+    "title": "Two-dimensional vectors",
+    "concepts": "operator overloading, NotImplemented, __iter__"
+  },
+  {
+    "section": "08_oop",
+    "path": "exercises/08_oop/05_composition.py",
+    "title": "Notification service with injected delivery",
+    "concepts": "composition, dependency injection, duck typing"
+  },
+  {
+    "section": "09_iterators_generators",
+    "path": "exercises/09_iterators_generators/01_iterator.py",
+    "title": "Custom countdown iterator",
+    "concepts": "__iter__, __next__, StopIteration"
+  },
+  {
+    "section": "09_iterators_generators",
+    "path": "exercises/09_iterators_generators/02_batches.py",
+    "title": "Lazy batches",
+    "concepts": "yield, iter, islice, bounded memory"
+  },
+  {
+    "section": "09_iterators_generators",
+    "path": "exercises/09_iterators_generators/03_pipeline.py",
+    "title": "Streaming log pipeline",
+    "concepts": "generator expressions, yield from, lazy composition"
+  },
+  {
+    "section": "09_iterators_generators",
+    "path": "exercises/09_iterators_generators/04_send.py",
+    "title": "Running mean coroutine",
+    "concepts": "generator.send, priming, finally, close"
+  },
+  {
+    "section": "10_decorators_context",
+    "path": "exercises/10_decorators_context/01_decorator.py",
+    "title": "Count function calls",
+    "concepts": "decorators, functools.wraps, function attributes"
+  },
+  {
+    "section": "10_decorators_context",
+    "path": "exercises/10_decorators_context/02_retry.py",
+    "title": "Bounded retries for transient failures",
+    "concepts": "decorator factories, exception tuples, reraise"
+  },
+  {
+    "section": "10_decorators_context",
+    "path": "exercises/10_decorators_context/03_context_manager.py",
+    "title": "Temporarily override a dictionary value",
+    "concepts": "contextmanager, sentinel, try/finally"
+  },
+  {
+    "section": "10_decorators_context",
+    "path": "exercises/10_decorators_context/04_cache.py",
+    "title": "Memoized Fibonacci",
+    "concepts": "lru_cache, recursion, cache_info"
+  },
+  {
+    "section": "11_typing_internals",
+    "path": "exercises/11_typing_internals/01_generics.py",
+    "title": "Typed first-match search",
+    "concepts": "TypeVar, Iterable, Callable, union types"
+  },
+  {
+    "section": "11_typing_internals",
+    "path": "exercises/11_typing_internals/02_protocol.py",
+    "title": "Structural typing for output sinks",
+    "concepts": "Protocol, structural subtyping, annotations"
+  },
+  {
+    "section": "11_typing_internals",
+    "path": "exercises/11_typing_internals/03_descriptor.py",
+    "title": "Reusable positive-number descriptor",
+    "concepts": "descriptors, __set_name__, __get__, __set__"
+  },
+  {
+    "section": "11_typing_internals",
+    "path": "exercises/11_typing_internals/04_metaclass.py",
+    "title": "Register classes at definition time",
+    "concepts": "type, metaclasses, class creation"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/01_flags.py",
+    "title": "Permission flags with bit masks",
+    "concepts": "IntFlag, enums, bitwise operators"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/02_binary_records.py",
+    "title": "Encode a binary record",
+    "concepts": "struct, bytes, endianness, hashlib"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/03_regex.py",
+    "title": "Parse structured log lines",
+    "concepts": "re, named groups, fullmatch"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/04_datetime.py",
+    "title": "Compare timezone-aware timestamps",
+    "concepts": "datetime, timezone, ISO 8601, timedelta"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/05_decimal.py",
+    "title": "Exact invoice arithmetic",
+    "concepts": "Decimal, quantize, ROUND_HALF_UP, finite values"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/06_itertools.py",
+    "title": "Find exact-size combinations",
+    "concepts": "combinations, itertools, generator expressions"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/07_heap.py",
+    "title": "Stable priority queue",
+    "concepts": "heapq, itertools.count, tuple ordering"
+  },
+  {
+    "section": "12_standard_library",
+    "path": "exercises/12_standard_library/08_random_statistics.py",
+    "title": "Reproducible simulation",
+    "concepts": "random.Random, statistics, local RNG state"
+  },
+  {
+    "section": "13_algorithms",
+    "path": "exercises/13_algorithms/01_binary_search.py",
+    "title": "Find the first matching index",
+    "concepts": "binary search, invariants, logarithmic search"
+  },
+  {
+    "section": "13_algorithms",
+    "path": "exercises/13_algorithms/02_merge_sort.py",
+    "title": "Stable merge sort",
+    "concepts": "divide and conquer, recursion, stability"
+  },
+  {
+    "section": "13_algorithms",
+    "path": "exercises/13_algorithms/03_bfs.py",
+    "title": "Shortest path in an unweighted graph",
+    "concepts": "BFS, deque, graph traversal, parent map"
+  },
+  {
+    "section": "13_algorithms",
+    "path": "exercises/13_algorithms/04_dynamic_programming.py",
+    "title": "Minimum coin count",
+    "concepts": "dynamic programming, unreachable states"
+  },
+  {
+    "section": "13_algorithms",
+    "path": "exercises/13_algorithms/05_sliding_window.py",
+    "title": "Longest substring without repetition",
+    "concepts": "sliding window, dictionaries, linear time"
+  },
+  {
+    "section": "13_algorithms",
+    "path": "exercises/13_algorithms/06_backtracking.py",
+    "title": "Generate balanced parentheses",
+    "concepts": "backtracking, pruning, recursion"
+  },
+  {
+    "section": "14_testing_debugging",
+    "path": "exercises/14_testing_debugging/01_unittest.py",
+    "title": "Test a bounded clamp function",
+    "concepts": "unittest, subTest, assertRaises, boundaries"
+  },
+  {
+    "section": "14_testing_debugging",
+    "path": "exercises/14_testing_debugging/02_mocking.py",
+    "title": "Test an HTTP client without network access",
+    "concepts": "Mock, dependency injection, HTTP status, JSON"
+  },
+  {
+    "section": "14_testing_debugging",
+    "path": "exercises/14_testing_debugging/03_logging.py",
+    "title": "Capture structured diagnostic messages",
+    "concepts": "logging, handlers, formatting, cleanup"
+  },
+  {
+    "section": "14_testing_debugging",
+    "path": "exercises/14_testing_debugging/04_profiling.py",
+    "title": "Measure implementations without brittle thresholds",
+    "concepts": "timeit, performance, equivalent behavior"
+  },
+  {
+    "section": "15_concurrency",
+    "path": "exercises/15_concurrency/01_threads.py",
+    "title": "Ordered thread-pool results",
+    "concepts": "ThreadPoolExecutor, map, executor lifetime"
+  },
+  {
+    "section": "15_concurrency",
+    "path": "exercises/15_concurrency/02_locks.py",
+    "title": "Protect a shared counter",
+    "concepts": "Lock, critical section, futures"
+  },
+  {
+    "section": "15_concurrency",
+    "path": "exercises/15_concurrency/03_processes.py",
+    "title": "Process-pool CPU tasks",
+    "concepts": "ProcessPoolExecutor, pickle, main guard, spawn"
+  },
+  {
+    "section": "15_concurrency",
+    "path": "exercises/15_concurrency/04_asyncio.py",
+    "title": "Bound asynchronous work",
+    "concepts": "async/await, Semaphore, gather, asyncio.run"
+  },
+  {
+    "section": "15_concurrency",
+    "path": "exercises/15_concurrency/05_taskgroup.py",
+    "title": "Cancel sibling tasks on failure",
+    "concepts": "TaskGroup, ExceptionGroup, except*, cancellation"
+  },
+  {
+    "section": "16_projects",
+    "path": "exercises/16_projects/01_task_tracker.py",
+    "title": "Project: persistent task tracker",
+    "concepts": "dataclasses, JSON, pathlib, validation, state"
+  },
+  {
+    "section": "16_projects",
+    "path": "exercises/16_projects/02_expense_report.py",
+    "title": "Project: monthly expense report",
+    "concepts": "CSV, Decimal, date parsing, aggregation"
+  },
+  {
+    "section": "16_projects",
+    "path": "exercises/16_projects/03_log_analyzer.py",
+    "title": "Project: streaming status-code report",
+    "concepts": "streaming, Counter, parsing, malformed records"
+  },
+  {
+    "section": "16_projects",
+    "path": "exercises/16_projects/04_lru_cache.py",
+    "title": "Project: bounded LRU cache",
+    "concepts": "OrderedDict, eviction, sentinel-free lookup, classes"
+  },
+  {
+    "section": "16_projects",
+    "path": "exercises/16_projects/05_expression_evaluator.py",
+    "title": "Project: restricted arithmetic evaluator",
+    "concepts": "ast, recursion, allowlists, operators"
+  },
+  {
+    "section": "16_projects",
+    "path": "exercises/16_projects/06_dependency_scheduler.py",
+    "title": "Project: dependency-aware build ordering",
+    "concepts": "topological sort, graph validation, heap, cycles"
+  }
+]

@@ -87,4 +87,3 @@ Add an exercise with a module docstring (problem, inputs/outputs, behavior at th
 boundaries, hint, stretch), a readable solution, and a `check()` function. Keep
 imports free of side effects and put executable examples behind the main guard.
 Update both indexes and run the verification commands before committing.
-
